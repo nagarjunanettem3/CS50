@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Google Advanced Search</title>
+    <style>
+    .appbar {
+        color: #f28b82;
+    }
+    .button{
+                background: #8ab4f8;
+                border-color: #8ab4f8;
+                color: #202124
+            }
+    </style>
+  </head>
+  <body>
+    <form action="https://google.com/search">
+    <div style="text-align: right">
+        <a href="C:\Users\NagArjunan\Desktop\CS50\index.html">Google Search</a>
+    </div>
+    <div>
+    <img src="C:\Users\NagArjunan\Desktop\CS50\images\glogo.png" alt="logo3" style="height:40px;width:60px"/>
+    </div>
+    <br>
+    <br>
+    <div class="appbar">
+        <p><b>Advanced Search</b></p>
+    </div>
+    <br>
+    <br>  
+    <div> 
+    <table>
+        <tr style="text-align: left">
+          <th>Find pages with...</th>
+          <th></th>
+          <th>To do this in the search box</th>
+        </tr>
+        <tr>
+          <td>all these words:</td>
+          <td><input type="text" name="as_q" style="height:20px;line-height:20px;width:400px"/></td>
+          <td> &emsp;Type the important words:  tricolor rat terrier</td>
+        </tr>
+        <tr>
+            <td>this exact word or phrase:</td>
+            <td><input type="text" name="as_epq" style="height:20px;line-height:20px;width:400px"/></td>
+            <td> &emsp;Put exact words in quotes:  "rat terrier"</td>
+          </tr>
+          <tr>
+            <td>any of these words:</td>
+            <td><input type="text" name="as_oq" style="height:20px;line-height:20px;width:400px"/></td>
+            <td> &emsp;Type OR between all the words you want:  miniature OR standard</td>
+          </tr>
+        <tr>
+          <td>none of these words:</td>
+          <td><input type="text" name="as_eq" style="height:20px;line-height:20px;width:400px"/></td>
+          <td> &emsp;Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</td>
+        </tr>
+        <tr>
+    <td>
+    </td>
+    <br>
+    <td  style="text-align: right">
+        <input type="hidden" name="as_occt" value="any" />
+        <input type="hidden" name="as_qdr" value="all" />
+        <input name="tbs" type="hidden" value=""/> 
+        <input class="button" value="Advanced Search" type="submit" style="-webkit-user-select:none;user-select:none;line-height:100%;height:30px;min-width:120px;"/> 
+    </td>
+        <td> </td>
+    </tr>
+    </table>
+    </div>
+    </form>
+  </body>
+</html>
